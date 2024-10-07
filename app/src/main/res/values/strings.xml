@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">GenApp</string>
+
+    <!--Drawer menu -->
+    <string name="Opcion_Todas">Contraseñas</string>
+    <string name="Opcion_Ajustes">Ajustes</string>
+    <string name="Opcion_Salir">Salir</string>
+    <string name="Opcion_AcercaDe">Acerca de</string>
+
+    <!--Drawer layout -->
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+    <!--FAB-->
+    <string name="FAB_AgregarPassword">Agregar</string>
+
+    <!-- Diseño Agregar_Password -->
+    <string name="etTitulo">Titulo</string>
+    <string name="etCuenta">Correo electrónico</string>
+    <string name="etNombreUsuario">Nombre usuario</string>
+    <string name="etContrasena">Contraseña</string>
+    <string name="etSitioWeb">Sitio Web</string>
+    <string name="etNota">Nota</string>
+    <string name="btnAleatoria">Generar aleatoria</string>
+
+    <!-- Menu Administrar Password -->
+    <string name="Guardar_Password">Guardar</string>
+
+    <!-- Item Password -->
+    <string name="item_titulo">Titulo</string>
+    <string name="item_cuenta">Cuenta</string>
+    <string name="item_nombre_usuario">Nombre de usuario</string>
+    <string name="item_contrasenna">Contraseña</string>
+    <string name="item_sitio_web">Sitio web</string>
+    <string name="item_nota">Nota</string>
+
+    <!--Menú fragmento todas-->
+    <string name="menu_numero_registros">Número de registros</string>
+    <string name="menu_buscar_registros">Buscar registros</string>
+    <string name="menu_ordenar_registros">Ordenar registros</string>
+
+    <!--Menú fragmento acercaDe-->
+    <string name="acercaDe_ciclo">Desarrollo de Aplicaciones Multiplataformas</string>
+    <string name="acercaDe_version">Proyecto fin de ciclo</string>
+    <string name="acercaDe_autor">Autor: José María Patrón Cortés</string>
+    <string name="acercaDe_correo">jmpatronc01@educarex.es</string>
+
+    <!--Cuadro dialogo num registros-->
+    <string name="txtTotal">Total de registros</string>
+    <string name="total"> -- </string>
+    <string name="btnEntendidoTotal">Entendido</string>
+
+    <!--Cuadro dialogo editar/eliminar registros-->
+    <string name="btn_edit_registro">Editar</string>
+    <string name="btn_eliminar_registro">Eliminar</string>
+
+    <!--Cuadro dialogo ordenar registros-->
+    <string name="btn_nuevos">Nuevos</string>
+    <string name="btn_antiguos">Antiguos</string>
+    <string name="btn_AZ">A-Z</string>
+    <string name="btn_ZA">Z-A</string>
+
+    <!--Cuadro dialogo eliminar all-->
+    <string name="txtPreguntaEliminar">¿Deseas eliminar todos los regitros?</string>
+    <string name="btnEliminarSi">Sí</string>
+    <string name="btnEliminarNo">Cancelar</string>
+
+    <!--Cuadro dialogo cambiar pass-->
+    <string name="txtPassPrincipal">Su contraseña principal es:</string>
+    <string name="passPrincipal"> -- </string>
+    <string name="etPassPrincipalNueva">Nueva contraseña principal</string>
+    <string name="etPassPrincipalNuevaConfirmar">Confirme la contraseña principal</string>
+    <string name="btnPassPrincipalCambiar">Cambiar</string>
+    <string name="btnPassPrincipalCancelar">Cancelar</string>
+
+    <!--Cuadro dialogo pass aleatoria-->
+    <string name="etPassAleatoriaNumero">Numero de caracteres</string>
+    <string name="rdbPassAleatoriaTodosTipo">Todos los caracteres</string>
+    <string name="rdbPassAleatoriaLetras">Solo letras</string>
+    <string name="rdbPassAleatoriaSoloLetrasyNumeros">Letras y números</string>
+    <string name="btnPassAleatoriaGenerar">Generar</string>
+    <string name="btnPassAleatoriaAceptar">Aceptar</string>
+    <string name="btnPassAleatoriaCancelar">Cancelar</string>
+    <string name="tvPassAleatoria"> -- </string>
+    <string name="tvPassAleatoriaPresentacion">Personaliza tu contraseña y presiona generar</string>
+    <string name="tvPassAleatoriaLongitud">Número de caracteres</string>
+
+
+    <!--Datos registros-->
+    <string name="d_txt_titulo">Titulo: </string>
+    <string name="d_titulo">--</string>
+    <string name="d_txt_cuenta">Cuenta: </string>
+    <string name="d_cuenta">--</string>
+    <string name="d_txt_nombre_usuario">Nombre de usaurio: </string>
+    <string name="d_nombre_usuario">--</string>
+    <string name="d_txt_contrasenna">Contraseña: </string>
+    <string name="d_contrasenna">--</string>
+    <string name="d_txt_sitio_web">Sitio web: </string>
+    <string name="d_sitio_web">--</string>
+    <string name="d_txt_nota">Nota: </string>
+    <string name="d_nota">--</string>
+    <string name="d_txt_tiempo_registro">Tiempo de registro: </string>
+    <string name="d_tiempo_registro">--</string>
+    <string name="d_txt_tiempo_actualizacion">Tiempo de actualización: </string>
+    <string name="d_tiempo_actualizacion">--</string>
+
+    <!--Ajustes-->
+    <string name="txtAjustes">Ajustes</string>
+    <string name="eliminarTodo">Eliminar todos los registros</string>
+    <string name="ajExportar">Exportar copia de seguridad</string>
+    <string name="ajImportar">Importar copia de seguridad</string>
+    <string name="ajCambiarPass">Cambiar contraseña principal</string>
+
+
+    <!--LOGIN-->
+    <string name="logSaludo">Bienvenido a GenApp</string>
+    <string name="logMensaje">Introduzca una contraseña</string>
+    <string name="logEtPass">Contraseña</string>
+    <string name="logEtConPass">Confirmar contraseña</string>
+    <string name="logBtnConfirmar">Confirmar</string>
+
+    <!--Login usuario-->
+    <string name="logUsBtnAcceder">Acceder</string>
+    <string name="logUsOtraCuenta">Quiero registrarme con otra cuenta</string>
+    <!--Login biometrico-->
+    <string name="huellaOtroMetodo">Otro método</string>
+    <string name="huellaBtn">Acceso biométrico</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

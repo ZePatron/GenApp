@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:layout_gravity="center"
+    android:background="#E4E4E4">
+
+
+    <TextView
+        android:id="@+id/tvPassAleatoriaPresentacion"
+        android:text="@string/tvPassAleatoriaPresentacion"
+        android:fontFamily="@font/opensans_bold"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/tvPassAleatoria"
+        android:text="@string/tvPassAleatoria"
+        android:fontFamily="@font/opensans_bold"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btnPassAleatoriaGenerar"
+        android:text="@string/btnPassAleatoriaGenerar"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/opensans_bold"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/tvPassAleatoriaLongitud"
+        android:textSize="18sp"
+        android:text="8"
+        android:fontFamily="@font/opensans_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:minWidth="50dp"
+        android:inputType="number"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:maxLength="2"
+
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+        <RadioButton
+            android:id="@+id/rdbPassAleatoriaTodosTipo"
+            android:text="@string/rdbPassAleatoriaTodosTipo"
+            android:fontFamily="@font/opensans_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            />
+        <RadioButton
+            android:id="@+id/rdbPassAleatoriaLetras"
+            android:text="@string/rdbPassAleatoriaLetras"
+            android:fontFamily="@font/opensans_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <RadioButton
+            android:id="@+id/rdbPassAleatoriaSoloLetrasyNumeros"
+            android:text="@string/rdbPassAleatoriaSoloLetrasyNumeros"
+            android:fontFamily="@font/opensans_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </RadioGroup>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/btnPassAleatoriaAceptar"
+            android:text="@string/btnPassAleatoriaAceptar"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"
+            android:fontFamily="@font/opensans_bold"
+            android:layout_weight="1"
+            android:layout_marginEnd="5dp"/>
+
+        <Button
+            android:id="@+id/btnPassAleatoriaCancelar"
+            android:text="@string/btnPassAleatoriaCancelar"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"
+            android:fontFamily="@font/opensans_bold"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

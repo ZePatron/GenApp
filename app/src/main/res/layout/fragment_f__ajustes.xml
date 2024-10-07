@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragmentos.F_Ajustes"
+    android:background="#F6EBEB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtAjustes"
+            android:fontFamily="@font/opensans_bold"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            />
+
+        <TextView
+            android:id="@+id/eliminarTodo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:drawablePadding="15dp"
+            android:focusable="true"
+            android:fontFamily="@font/opensans_bold"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="@string/eliminarTodo"
+            android:textSize="18sp"
+            app:drawableStartCompat="@drawable/icono_eliminar_todo"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/ajImportar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
+            android:clickable="true"
+            android:drawablePadding="10dp"
+            android:focusable="true"
+            android:fontFamily="@font/opensans_bold"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="@string/ajImportar"
+            android:textSize="18sp"
+            app:drawableStartCompat="@drawable/icono_importar"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/ajExportar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
+            android:clickable="true"
+            android:drawablePadding="10dp"
+            android:focusable="true"
+            android:fontFamily="@font/opensans_bold"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="@string/ajExportar"
+            android:textSize="18sp"
+            app:drawableStartCompat="@drawable/icono_exportar"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
+        <TextView
+            android:id="@+id/ajCambiarPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
+            android:clickable="true"
+            android:drawablePadding="10dp"
+            android:focusable="true"
+            android:fontFamily="@font/opensans_bold"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="@string/ajCambiarPass"
+            android:textSize="18sp"
+            app:drawableStartCompat="@drawable/icono_pass_principal"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+</RelativeLayout>

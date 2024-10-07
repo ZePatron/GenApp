@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".login.LoginUsuarioRegistrado">
+
+    <TextView
+        android:text="@string/logSaludo"
+        android:textSize="25sp"
+        android:fontFamily="@font/opensans_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        android:layout_marginTop="10dp"
+        >
+
+        <EditText
+            android:id="@+id/logUsEtPass"
+            android:inputType="textPassword"
+            android:hint="@string/logEtPass"
+            android:fontFamily="@font/opensans_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/logUsBtnAcceder"
+        android:text="@string/logUsBtnAcceder"
+        android:textColor="#fff"
+        android:fontFamily="@font/opensans_regular"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:text="@string/huellaOtroMetodo"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/opensans_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/huellaBtn"
+        android:text="@string/huellaBtn"
+        android:textColor="#fff"
+        android:fontFamily="@font/opensans_regular"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_fileName="huellalottie.json"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

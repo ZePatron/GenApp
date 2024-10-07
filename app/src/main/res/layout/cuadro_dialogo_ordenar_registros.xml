@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="10dp">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="280dp"
+        android:layout_height="100dp"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_fileName="ordenarlottie.json"
+        app:lottie_autoPlay="true"/>
+    <Button
+        android:id="@+id/btn_nuevos"
+        android:text="@string/btn_nuevos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/opensans_bold"
+        android:layout_marginTop="15dp"
+        />
+    <Button
+        android:id="@+id/btn_antiguos"
+        android:text="@string/btn_antiguos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/opensans_bold"
+        android:layout_marginTop="15dp"
+        />
+    <Button
+        android:id="@+id/btn_AZ"
+        android:text="@string/btn_AZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/opensans_bold"
+        android:layout_marginTop="15dp"
+        />
+    <Button
+        android:id="@+id/btn_ZA"
+        android:text="@string/btn_ZA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/opensans_bold"
+        android:layout_marginTop="15dp"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
